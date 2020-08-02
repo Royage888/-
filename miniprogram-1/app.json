@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/catagory",
+    "pages/good_list/good_list",
+    "pages/goos_detail/index",
+    "pages/cart/cart",
+    "pages/collect/collect",
+    "pages/order/order",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "黑马优购",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/jia.png",
+        "selectedIconPath": "icons/jia1.png"
+      }
+      ,
+      {
+        "pagePath": "pages/catagory/catagory",
+        "text": "目录",
+        "iconPath": "icons/mulu.png",
+        "selectedIconPath": "icons/mulu1.png"
+      }
+      ,
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "icons/gouwuche.png",
+        "selectedIconPath": "icons/shouye-gouwuche-hongse.png"
+      }
+      ,
+      {
+        "pagePath": "pages/user/user",
+        "text": "我",
+        "iconPath": "icons/mine-gray.png",
+        "selectedIconPath": "icons/mine-gray-red.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
